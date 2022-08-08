@@ -8,10 +8,10 @@
 
 body{
     background-image: url(./img/netflix-background-image\ 1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+    background-position: center; /*fotograflar tekrar etmesin diye kullanıldı*/
+    background-repeat: no-repeat; /*fotograflar tekrar etmesin diye kullanıldı*/
+    background-size: cover; /*fotograflar tekrar etmesin diye kullanıldı*/
+    color: white; 
 }
 
 #container{
@@ -68,9 +68,10 @@ textarea{
 
 
 }
-#form-submit{
+.form-submit{
   margin: auto;
   width: 160px;
+  margin-top: 15px;
 }
 
 #form-button:hover{
